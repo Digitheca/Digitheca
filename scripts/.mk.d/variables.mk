@@ -1,0 +1,13 @@
+APP_NAME       := digitheca
+IMAGE_NAME     := $(APP_NAME)
+IMAGE_TAG      := 0.0.1
+NETWORK_NAME   := $(APP_NAME)-network
+CONTAINER_NAME := $(APP_NAME)2
+HOST_PORT      := 6901
+CONTAINER_PORT := 6901
+ROOT           := dev/$(APP_NAME)
+HOST_USER      := fern
+CONTAINER_USER := ubuntu
+WINDOWS_PATH   := /mnt/c/Users/FernWoitschach/Development/Digitheca
+CONTAINER_PATH := /home/$(CONTAINER_USER)/$(ROOT)
+APP_DIR        := $(CONTAINER_PATH)/app

@@ -1,0 +1,4 @@
+.bin/
+.env
+
+app/view/build/
